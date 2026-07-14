@@ -1,3 +1,7 @@
+> **⚠️ Archived — this crate moved to [`polaris-trade/clients`](https://github.com/polaris-trade/clients).**
+>
+> `client_soupbintcp` now lives at [`crates/soupbintcp`](https://github.com/polaris-trade/clients/tree/main/crates/soupbintcp) in the `clients` workspace; new releases are cut there as `client_soupbintcp-vX.Y.Z`. Existing `client_soupbintcp-v*` tags on this repository stay resolvable for historical pins. This repository is read-only — open issues and PRs against `clients`.
+
 # client_soupbintcp
 
 SoupBinTCP 3.0 market-data client: login handshake, sequenced and unsequenced framing, heartbeats, and an optional compressed variant, over any stream backend.
